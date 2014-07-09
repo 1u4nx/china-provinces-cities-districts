@@ -4,7 +4,6 @@ class City
   
   field :name
   field :zipcode
-  field :hours, type: Float, default: 0
   
   belongs_to :province
   has_many :districts
